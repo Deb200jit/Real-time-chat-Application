@@ -1,0 +1,119 @@
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  width: 50%;
+  max-width: 350px;
+  padding: 0% 25% 0% 25%;
+}
+
+.form-title { 
+  font-size: 30px; 
+  font-family: 'Avenir'; 
+  font-weight: bold; 
+  text-align: center;
+  letter-spacing: 0.8px; 
+  color: #e8e8e8; 
+  padding-bottom: 20px; 
+}
+
+.head {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Avenir';
+  letter-spacing: 0.5px;
+  color: #fdf9f9;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+a{
+  color: #e4e3e3;
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgb(0, 47, 255);
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.form-subtitle {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Avenir';
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  top: 8px;
+  left: 18px;
+  font-size: 15px;
+  color: rgb(175, 175, 175);
+  font-family: Avenir;
+  width: 300px;
+
+}
+.auth-input {
+  background-color: #5e606b;
+  color: rgb(255, 255, 255);
+  font-family: "Avenir";
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: rgb(233, 230, 230);
+  letter-spacing: 1px; 
+  background-color: #009d0d;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 8px;
+  font-family: "Avenir";
+  cursor: pointer;
+  transition: all .44s ease;
+  -webkit-transition: all .44s ease;
+  -moz-transition: all .44s ease;
+}
+.auth-button:hover { filter: brightness(145%); }
+
+.chat-wrapper {
+  height: 80vh; 
+  width: 80%;
+  margin-left: 10%; 
+  color: white; 
+  background: rgb(43, 47, 60);
+}
